@@ -6,6 +6,9 @@ div {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -57,4 +60,21 @@ li: hover {
 	padding:0 0.938rem;
 	box-sizing: border-box;
 	vertical-align: baseline;
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.cases .devices {
+	width: 33.33333333%;
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
