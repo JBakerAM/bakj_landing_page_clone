@@ -1,5 +1,5 @@
 body {
-	background-color: red;
+	background-color: LightGrey;
 }
 div {
 	border: 1px solid Chocolate;
@@ -12,4 +12,29 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.links{
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+
+li{
+	display: inline-block;
+	margin-left: 25px
+}
+
+.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+li: hover {
+	cursor: pointer;
+	color: #333333;
 }
