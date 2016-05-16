@@ -135,7 +135,6 @@ ul, menu, dir {
 }
 
 .cases .devices {
-	width: 33.3333333%;
 	display: inline-block;
 	border: 1px solid black;
 	box-sizing: border-box;
